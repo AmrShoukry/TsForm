@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./form.js" defer></script>
+</head>
+
+<body>
+  <form id="form">
+    <fieldset>
+      <legend>Sign up form:</legend>
+
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Name" minlength="2" required>
+
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Email" required>
+
+      <br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" placeholder="Password" minlength="6" maxlength="12" required>
+
+      <br /><br />
+
+      <label for="passwordConfirm">Password Confirmation:</label>
+      <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="Password Confirmation"
+        minlength="6" maxlength="12" required>
+
+      <br /><br />
+
+      <label for="dob">Date of birth:</label>
+      <input type="date" name="dob" id="dob" placeholder="Date of birth">
+
+      <br /><br />
+
+      <label for="country">Country:</label>
+      <select name="country" id="country" required>
+        <option value="Egypt">Egypt</option>
+        <option value="Tunisia">Tunisia</option>
+        <option value="Algeria">Algeria</option>
+        <option value="Morocco">Morocco</option>
+        <option value="Sudan">Sudan</option>
+      </select>
+
+      <br /><br />
+
+      <button type="submit">Sign up</button>
+    </fieldset>
+
+  </form>
+</body>
+
+</html>
